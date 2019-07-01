@@ -1,4 +1,4 @@
 .git/
 .idea/
 cache/
-
+.DS_Store
