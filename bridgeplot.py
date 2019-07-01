@@ -2,7 +2,7 @@ import osmnx as ox
 import matplotlib.pyplot as plt
 import xlrd
 
-loc = ("/Users/Fernanda/Documents/bridges.xlsx")
+loc = ("bridges.xlsx")
 wb = xlrd.open_workbook(loc)
 sheet = wb.sheet_by_index(0)
 sheet.cell_value(0, 0)
