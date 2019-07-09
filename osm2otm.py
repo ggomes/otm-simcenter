@@ -264,49 +264,49 @@ def overpass_request(data, timeout=180):
     response = requests.post(url, data=data, timeout=timeout, headers=headers)
     response_json = response.json()
     return response_json
-
-def query_json():
-
-    # Dwight and 6th
-    # west = -122.29541
-    # east = -122.29246
-    # south = 37.8596
-    # north = 37.86111
-
-    west = -122.2981
-    north = 37.8790
-    east = -122.2547
-    south = 37.8594
-
-    infrastructure = 'way["highway"]'
-    timeout = 180
-    osm_filter = '["area"!~"yes"]["highway"!~"cycleway|footway|path|pedestrian|steps|track|corridor|proposed|construction|bridleway|abandoned|platform|raceway|service"]["motor_vehicle"!~"no"]["motorcar"!~"no"]["access"!~"private"]["service"!~"parking|parking_aisle|driveway|private|emergency_access"]'
-    maxsize = ''
-
-    # turn bbox into a polygon and project to local UTM
-    polygon = Polygon([(west, south), (east, south), (east, north), (west, north)])
-    geometry, crs_proj = project_geometry(polygon)
-
-    if isinstance(geometry, Polygon):
-        geometry_proj_consolidated_subdivided = MultiPolygon([geometry])
-
-    geometry, _ = project_geometry(geometry_proj_consolidated_subdivided, crs=crs_proj, to_latlong=True)
-
-    response_jsons = []
-
-    for poly in geometry:
-
-        west, south, east, north = poly.bounds
-        query_template = '[out:json][timeout:{timeout}]{maxsize};({infrastructure}{filters}({south:.6f},{west:.6f},{north:.6f},{east:.6f});>;);out;'
-        query_str = query_template.format(north=north, south=south,
-                                          east=east, west=west,
-                                          infrastructure=infrastructure,
-                                          filters=osm_filter,
-                                          timeout=timeout, maxsize=maxsize)
-        response_json = overpass_request(data={'data': query_str}, timeout=timeout)
-        response_jsons.append(response_json)
-
-    return response_jsons
+#
+# def query_json():
+#
+#     # Dwight and 6th
+#     # west = -122.29541
+#     # east = -122.29246
+#     # south = 37.8596
+#     # north = 37.86111
+#
+#     west = -122.2981
+#     north = 37.8790
+#     east = -122.2547
+#     south = 37.8594
+#
+#     infrastructure = 'way["highway"]'
+#     timeout = 180
+#     osm_filter = '["area"!~"yes"]["highway"!~"cycleway|footway|path|pedestrian|steps|track|corridor|proposed|construction|bridleway|abandoned|platform|raceway|service"]["motor_vehicle"!~"no"]["motorcar"!~"no"]["access"!~"private"]["service"!~"parking|parking_aisle|driveway|private|emergency_access"]'
+#     maxsize = ''
+#
+#     # turn bbox into a polygon and project to local UTM
+#     polygon = Polygon([(west, south), (east, south), (east, north), (west, north)])
+#     geometry, crs_proj = project_geometry(polygon)
+#
+#     if isinstance(geometry, Polygon):
+#         geometry_proj_consolidated_subdivided = MultiPolygon([geometry])
+#
+#     geometry, _ = project_geometry(geometry_proj_consolidated_subdivided, crs=crs_proj, to_latlong=True)
+#
+#     response_jsons = []
+#
+#     for poly in geometry:
+#
+#         west, south, east, north = poly.bounds
+#         query_template = '[out:json][timeout:{timeout}]{maxsize};({infrastructure}{filters}({south:.6f},{west:.6f},{north:.6f},{east:.6f});>;);out;'
+#         query_str = query_template.format(north=north, south=south,
+#                                           east=east, west=west,
+#                                           infrastructure=infrastructure,
+#                                           filters=osm_filter,
+#                                           timeout=timeout, maxsize=maxsize)
+#         response_json = overpass_request(data={'data': query_str}, timeout=timeout)
+#         response_jsons.append(response_json)
+#
+#     return response_jsons
 
 def read_way(element):
     # OSM tags considered:
@@ -1083,8 +1083,8 @@ def plot_graph(scenario, bbox=None, fig_height=6, fig_width=None, margin=0.02,
 # jsons = query_json()
 # with open('rgiom.p','wb') as file:
 #     pickle.dump( jsons, file)
-with open('rgiom.p','rb') as file:
-    jsons = pickle.load(file)
+# with open('rgiom.p','rb') as file:
+#     jsons = pickle.load(file)
 
 # 2. parse osm
 links, nodes = parse_jsons(jsons)
