@@ -15,7 +15,15 @@ default_lanes_each_direction = {
     'tertiary': 1,
     'secondary': 1,
     'primary': 1,
-    'unclassified': 1
+    'unclassified': 1,
+    'trunk' : 1,
+    'motorway_link':1,
+    'secondary_link':1,
+    'trunk_link':1,
+    'tertiary_link':1,
+    'motorway':1,
+    'primary_link':1,
+    'road':1
 }
 
 # OSM QUERY ---------------------------------
@@ -226,6 +234,38 @@ def __read_way(element,fixes):
 
     tags = element['tags']
 
+    # apply fixes ..................................................
+    if element['id'] in fixes:
+        fix = fixes[element['id']]
+
+
+        print(fix)
+
+
+
+
+
+
+
+
+    if len(link['turn_lanes'].split('|'))!=link['lanes']:
+        if link['id'] in fixes:
+            for fix in fixes[link['id']]:
+                link[fix[0]] = fix[1]
+        else:
+            print('ERROR: id=',link['id'],' turn=',link['turn_lanes'],' lanes=', link['lanes'])
+
+
+    if link['lanes_backward']!=0 and len(link['turn_lanes_backward'].split('|'))!=link['lanes_backward']:
+        if link['id'] in fixes:
+            for fix in fixes[link['id']]:
+                link[fix[0]] = fix[1]
+        else:
+            print('ERROR: backward id=',link['id'],' turn=',link['turn_lanes_backward'],' lanes=',link['lanes_backward'])
+
+
+
+
     nodes = element['nodes']
     link = {
         'id': element['id'],
@@ -235,6 +275,11 @@ def __read_way(element,fixes):
         'roadparam': 0,
         'nodes': nodes
     }
+
+
+
+
+
 
     # name ..................
     if 'name' in tags:
@@ -448,21 +493,6 @@ def __read_way(element,fixes):
         else:
             link['lanes_backward'] = len(link['turn_lanes_backward'].split('|'))
 
-    # correct discrepancies between turns and lanes
-    if len(link['turn_lanes'].split('|'))!=link['lanes']:
-        if link['id'] in fixes:
-            for fix in fixes[link['id']]:
-                link[fix[0]] = fix[1]
-        else:
-            print('ERROR: id=',link['id'],' turn=',link['turn_lanes'],' lanes=', link['lanes'])
-
-
-    if link['lanes_backward']!=0 and len(link['turn_lanes_backward'].split('|'))!=link['lanes_backward']:
-        if link['id'] in fixes:
-            for fix in fixes[link['id']]:
-                link[fix[0]] = fix[1]
-        else:
-            print('ERROR: backward id=',link['id'],' turn=',link['turn_lanes_backward'],' lanes=',link['lanes_backward'])
 
     return link
 
@@ -879,7 +909,7 @@ def load_from_osm(west,north,east,south,simplify_roundabouts,fixes={}):
 
     # 1. query osm
     # jsons = __query_json(west,north,east,south)
-
+    #
     # with open('rgiom.pickle','wb') as file:
     #     pickle.dump( jsons, file)
     with open('rgiom.pickle','rb') as file:

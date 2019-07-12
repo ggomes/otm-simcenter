@@ -5,6 +5,17 @@ import matplotlib.pyplot as plt
 ox.config(use_cache=True, log_console=True)
 
 G = ox.graph_from_address('2801 Debarr Road, Anchorage, AK 99508', distance=400)
+# replace with otm.load_from_osm(...)
+
+# otm.scenario['links'][link_id]['id']
+# otm.scenario['links'][link_id]['start_node_id']
+# otm.scenario['links'][link_id]['end_node_id']
+# otm.scenario['links'][link_id]['nodes']  a list
+# otm.scenario['nodes'][node_id]['id']
+# otm.scenario['nodes'][node_id]['in_links']
+# otm.scenario['nodes'][node_id]['out_links']
+# otm.scenario['nodes'][node_id]['x']
+# otm.scenario['nodes'][node_id]['y']
 
 fig, ax = ox.plot_graph(G, show=False, close=False)
 
