@@ -15,8 +15,8 @@ class OTM:
         self.config_file = cfg
         self.scenario = {}
 
-    def load_from_osm(self,west=-122.2981,north=37.8790,east=-122.2547,south=37.8594,fixes={}):
-        self.scenario = osm_loader.load_from_osm(west=west,north=north,east=east,south=south,fixes=fixes)
+    def load_from_osm(self,west=-122.2981,north=37.8790,east=-122.2547,south=37.8594,fixes={},simplify_roundabouts=False):
+        self.scenario = osm_loader.load_from_osm(west=west,north=north,east=east,south=south,fixes=fixes,simplify_roundabouts=simplify_roundabouts)
 
     def save_to_xml(self, outfile):
 
@@ -26,14 +26,14 @@ class OTM:
         model = etree.SubElement(models,'model',{'type':'ctm','name':'myctm','is_default':'true'})
         etree.SubElement(model,'model_params',{'sim_dt':'2','max_cell_length':'100'})
 
-        # vehicle types
+        # vehicle types ............................
         commodities=next(scenario.iter('commodities'))
         etree.SubElement(commodities,'commodity',{'id':'0','name':'type0','pathfull':'false'})
 
-        # network
+        # network ..................................
         network=etree.SubElement(scenario,'network')
 
-        # road params
+        # road params ..............................
         road_params=etree.SubElement(network,'roadparams')
         for road_type_name,road_type_params in road_param_types.items():
             etree.SubElement(road_params,'roadparam',{
@@ -43,7 +43,7 @@ class OTM:
                 'jam_density':str(road_type_params['jam_density'])
             })
 
-        # get all node positions
+        # get all node positions ......................
         # node_id_map={}
         node_set=etree.SubElement(network,'nodes')
         node_id=0
@@ -87,7 +87,7 @@ class OTM:
                     'y':'{:.2f}'.format(node['y'])
                 })
 
-        # road connections
+        # road connections ....................................
         rc_id=0
         roadconnections=etree.SubElement(network,'roadconnections')
 
@@ -103,23 +103,31 @@ class OTM:
                 rc['out_link_lanes']='{}#{}'.format(min(road_conn['out_link_lanes']),max(road_conn['out_link_lanes']))
             rc_id+=1
 
-        # actuators
+        # actuators .............................
         actuators=etree.SubElement(scenario,'actuators')
 
-        nodes_with_signals = [node for node in self.scenario['nodes'].values() if node['type']=='traffic_signals']
+        # nodes_with_signals = [node for node in self.scenario['nodes'].values() if node['type']=='traffic_signals']
         actuator_id = 0
-        for node in nodes_with_signals:
+        for node in self.scenario['nodes'].values():
 
-            in_links = [self.scenario['links'][link_id] for link_id in node['in_links']]
+            if node['type']=='traffic_signals':
 
-            road_conns = [road_conn for road_conn in self.scenario['road_conns'] if road_conn['in_link'] in node['in_links']]
+                in_links = [self.scenario['links'][link_id] for link_id in node['in_links']]
+
+                road_conns = [road_conn for road_conn in self.scenario['road_conns'] if road_conn['in_link'] in node['in_links']]
 
 
-            ### FIGURE OUT PHASES / ROAD CONNECTIONS
+                ### FIGURE OUT PHASES / ROAD CONNECTIONS
 
-            actuator=etree.SubElement(actuators,'actuator',{'id':str(actuator_id),'type':'signal'})
-            etree.SubElement(actuator,'actuator_target',{'type':'node','id':str(node['id'])})
-            signal = etree.SubElement(actuator,'signal')
+                actuator=etree.SubElement(actuators,'actuator',{'id':str(actuator_id),'type':'signal'})
+                etree.SubElement(actuator,'actuator_target',{'type':'node','id':str(node['id'])})
+                signal = etree.SubElement(actuator,'signal')
+
+            if node['type']=='stop':
+                actuator=etree.SubElement(actuators,'actuator',{'id':str(actuator_id),'type':'stop'})
+                etree.SubElement(actuator,'actuator_target',{'type':'node','id':str(node['id'])})
+
+
             actuator_id += 1
 
         # # SUBNETWORK DATA

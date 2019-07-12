@@ -3,6 +3,7 @@ from otm import OTM
 otm = OTM()
 otm.load_from_osm(
     west=-122.2981,north=37.8790,east=-122.2547,south=37.8594,
+    simplify_roundabouts=True,
     fixes={
         # turns: left | | | lanes 3
         # OSM: https://www.openstreetmap.org/way/415803770#map=19/37.87693/-122.28277

@@ -6,6 +6,7 @@ from shapely.geometry import MultiPolygon
 from shapely.geometry import Polygon
 import requests
 import pickle
+from statistics import mean
 
 MilesToKilometers = 1.609344
 
@@ -165,6 +166,7 @@ def __project_gdf(gdf, to_crs=None, to_latlong=False):
 
 def __parse_jsons(jsons,fixes):
     global max_link_id
+    global max_node_id
 
     # make sure we got data back from the server requests
     elements = []
@@ -188,6 +190,7 @@ def __parse_jsons(jsons,fixes):
             print('unknown')
 
     max_link_id=max([x for x in links.keys()])+1
+    max_node_id=max([x for x in nodes.keys()])+1
 
     # set in and out links
     for node_id,node in nodes.items():
@@ -200,6 +203,7 @@ def __read_way(element,fixes):
     # OSM tags considered:
     #     'name'
     #     'highway',
+    #     'junction',
     #     'lanes',
     #     'lanes:forward',
     #     'lanes:backward',
@@ -243,6 +247,12 @@ def __read_way(element,fixes):
         link['highway'] = tags['highway']
     else:
         link['highway'] = 'default_highway'
+
+    # junction
+    if 'junction' in tags:
+        link['junction'] = tags['junction']
+    else:
+        link['junction'] = 'none'
 
     # oneway ..................
     if 'oneway' in tags:
@@ -474,7 +484,100 @@ def __read_node(element):
 
     return node
 
+# ROUNDABOUTS ---------------------------------
+
+def __delete_link(link_id,links,nodes):
+    if link_id not in links:
+        return
+    link = links[link_id]
+    start_node = nodes[link['start_node_id']]
+    start_node['out_links'].remove(link['id'])
+    end_node = nodes[link['end_node_id']]
+    end_node['in_links'].remove(link['id'])
+
+    del links[link_id]
+
+def __simplify_roundabouts(links, nodes, external_nodes):
+
+    roundabout_links = [link['id'] for link in links.values() if link['junction']=='roundabout']
+
+    if len(roundabout_links)==0:
+        return
+
+    # collect roundabouts
+    roundabouts = []
+
+    while len(roundabout_links)>0:
+
+        link = links[roundabout_links[0]]
+
+        roundabout = []
+        roundabouts.append(roundabout)
+        roundabout_links.remove(link['id'])
+        roundabout.append(link['id'])
+
+        # construct the roundabout corresponding to this link
+        while True:
+            next_link = [nlnk['id'] for nlnk in links.values() if nlnk['start_node_id']==link['end_node_id'] and nlnk['id'] in roundabout_links]
+
+            if len(next_link)==0:
+                break
+            if len(next_link)>1:
+                print('sadfasdf asdfhq- 48h1')
+
+            link = links[next_link[0]]
+            roundabout_links.remove(link['id'])
+            roundabout.append(link['id'])
+
+    # loop through roundabouts
+    for roundabout in roundabouts:
+
+        # members of the roundabout
+        internal_links = list(map( lambda link_id : links[link_id], roundabout))
+        all_node_ids = set(map( lambda link : link['start_node_id'], internal_links)).union( set(map( lambda link : link['end_node_id'], internal_links)) )
+        all_nodes = list(map( lambda node_id : nodes[node_id] , all_node_ids))
+
+        # create the center node
+        center_node = {
+            'id':__new_node_id(),
+            'x':mean([node['x'] for node in all_nodes]),
+            'y':mean([node['y'] for node in all_nodes]),
+            'in_links':set(),
+            'out_links':set(),
+            'type':'roundabout'
+        }
+        nodes[center_node['id']]=center_node
+        external_nodes.add(center_node['id'])
+
+        # deleter internal links
+        for link in internal_links:
+            __delete_link(link['id'],links,nodes)
+
+        for node in all_nodes:
+
+            # connect incomming and outgoing links to centeral node
+            for link_id in node['in_links']:
+                link = links[link_id]
+                link['end_node_id'] = center_node['id']
+                link['nodes'][-1] = center_node['id']
+                center_node['in_links'].add(link['id'])
+
+            for link_id in node['out_links']:
+                link=links[link_id]
+                link['start_node_id']=center_node['id']
+                link['nodes'][0] = center_node['id']
+                center_node['out_links'].add(link['id'])
+                # FIX link['nodes']
+
+            del nodes[node['id']]
+            external_nodes.remove(node['id'])
+
 # SPLIT STREETS AND ELIMINATING NODES ---------------------------------
+
+def __new_node_id():
+    global max_node_id
+    max_node_id = max_node_id + 1
+    return max_node_id
 
 def __new_link_id():
     global max_link_id
@@ -772,10 +875,10 @@ def __create_road_connections(links, nodes):
 
 ################################################
 
-def load_from_osm(west,north,east,south,fixes={}):
+def load_from_osm(west,north,east,south,simplify_roundabouts,fixes={}):
 
     # 1. query osm
-    jsons = __query_json(west,north,east,south)
+    # jsons = __query_json(west,north,east,south)
 
     # with open('rgiom.pickle','wb') as file:
     #     pickle.dump( jsons, file)
@@ -789,6 +892,9 @@ def load_from_osm(west,north,east,south,fixes={}):
     #    a) they cross another street at an internal node,
     #    b) they contain an traffic signal at an internal node
     internal_nodes, external_nodes = __split_streets(links,nodes)
+
+    if simplify_roundabouts:
+        __simplify_roundabouts(links, nodes, external_nodes)
 
     # 4. eliminate simple external nodes
     __eliminate_simple_external_nodes(links,nodes,internal_nodes, external_nodes)
