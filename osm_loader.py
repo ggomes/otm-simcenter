@@ -38,7 +38,12 @@ def __query_json(west=-122.2981,north=37.8790,east=-122.2547,south=37.8594):
 
     infrastructure = 'way["highway"]'
     timeout = 180
-    osm_filter = '["area"!~"yes"]["highway"!~"cycleway|footway|path|pedestrian|steps|track|corridor|proposed|construction|bridleway|abandoned|platform|raceway|service"]["motor_vehicle"!~"no"]["motorcar"!~"no"]["access"!~"private"]["service"!~"parking|parking_aisle|driveway|private|emergency_access"]'
+    osm_filter = '["area"!~"yes"]["motor_vehicle"!~"no"]["motorcar"!~"no"]["access"!~"private"]["service"!~"parking|parking_aisle|driveway|private|emergency_access"]'
+    if False:
+        osm_filter = osm_filter + '["highway"!~"footway|bridleway|steps|path|living_street|service|pedestrian|track|bus_guideway|escape|raceway|cycleway|proposed|construction|bus_stop|crossing|elevator|emergency_access_point|give_way|mini_roundabout|motorway_junction|passing_place|rest_area|speed_camera|street_lamp|services|corridor|abandoned|platform"]'
+    else:
+        osm_filter = osm_filter + '["highway"!~"tertiary|unclassified|residential|tertiary_link|footway|bridleway|steps|path|living_street|service|pedestrian|track|bus_guideway|escape|raceway|cycleway|proposed|construction|bus_stop|crossing|elevator|emergency_access_point|give_way|mini_roundabout|motorway_junction|passing_place|rest_area|speed_camera|street_lamp|services|corridor|abandoned|platform"]'
+
     maxsize = ''
 
     # turn bbox into a polygon and project to local UTM
@@ -236,34 +241,11 @@ def __read_way(element,fixes):
 
     # apply fixes ..................................................
     if element['id'] in fixes:
-        fix = fixes[element['id']]
-
-
-        print(fix)
-
-
-
-
-
-
-
-
-    if len(link['turn_lanes'].split('|'))!=link['lanes']:
-        if link['id'] in fixes:
-            for fix in fixes[link['id']]:
-                link[fix[0]] = fix[1]
-        else:
-            print('ERROR: id=',link['id'],' turn=',link['turn_lanes'],' lanes=', link['lanes'])
-
-
-    if link['lanes_backward']!=0 and len(link['turn_lanes_backward'].split('|'))!=link['lanes_backward']:
-        if link['id'] in fixes:
-            for fix in fixes[link['id']]:
-                link[fix[0]] = fix[1]
-        else:
-            print('ERROR: backward id=',link['id'],' turn=',link['turn_lanes_backward'],' lanes=',link['lanes_backward'])
-
-
+        for fix in fixes[element['id']]:
+            if fix[1]==None and fix[0] in element['tags']:
+                del element['tags'][fix[0]]
+            else:
+                element['tags'][fix[0]] = fix[1]
 
 
     nodes = element['nodes']
@@ -275,11 +257,6 @@ def __read_way(element,fixes):
         'roadparam': 0,
         'nodes': nodes
     }
-
-
-
-
-
 
     # name ..................
     if 'name' in tags:
@@ -514,6 +491,15 @@ def __read_node(element):
 
     return node
 
+def __remove_P_shaped_links(links,nodes):
+    p_links = set()
+    for link in links.values():
+        mynodes = link['nodes']
+        if (mynodes[0] in mynodes[1:]) or mynodes[-1] in mynodes[:-1]:
+            p_links.add(link['id'])
+    for link_id in p_links:
+        __delete_link(link_id,links,nodes)
+
 # ROUNDABOUTS ---------------------------------
 
 def __delete_link(link_id,links,nodes):
@@ -671,6 +657,7 @@ def __split_streets(links, nodes):
     return internal_nodes, external_nodes
 
 def __eliminate_simple_external_nodes(links,nodes,internal_nodes, external_nodes):
+
     external_to_internal_nodes=set()
     for node_id in external_nodes:
         node=nodes[node_id]
@@ -718,7 +705,7 @@ def __flip_wrong_way_links(links):
     flip_links = [link for link in links.values() if link['flip']]
 
     if len(flip_links)>0:
-        print("ERROR: FLIP LINKS ARE NOT IMPLEMENTED!!!!")
+        print("WARNING: FLIP LINKS ARE NOT IMPLEMENTED!!!!")
 
     # remove flip_links attribute
     for link in links.values():
@@ -908,15 +895,17 @@ def __create_road_connections(links, nodes):
 def load_from_osm(west,north,east,south,simplify_roundabouts,fixes={}):
 
     # 1. query osm
-    # jsons = __query_json(west,north,east,south)
-    #
-    # with open('rgiom.pickle','wb') as file:
+    jsons = __query_json(west,north,east,south)
+
+    # with open('anchorage.pickle','wb') as file:
     #     pickle.dump( jsons, file)
-    with open('rgiom.pickle','rb') as file:
-        jsons=pickle.load(file)
+    # with open('anchorage.pickle','rb') as file:
+    #     jsons=pickle.load(file)
 
     # 2. parse osm
     links, nodes = __parse_jsons(jsons,fixes)
+
+    __remove_P_shaped_links(links,nodes)
 
     # 3. split links when
     #    a) they cross another street at an internal node,

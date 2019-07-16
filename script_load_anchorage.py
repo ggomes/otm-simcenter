@@ -1,8 +1,11 @@
 from otm import OTM
+import pandas as pd
+
+# north=61.2597,south=61.0672,east=-149.6302,west=-150.0446,
 
 otm = OTM()
 otm.load_from_osm(
-    north=61.2597, south=61.0672, east=-149.6302, west=-150.0446,
+    north=61.2597,south=61.0672,east=-149.6302,west=-150.0446,
     simplify_roundabouts=False,
     fixes={
         # ERROR 'turn:lanes:both_ways' in tags and 'turn:lanes:forward' in tags
@@ -12,8 +15,11 @@ otm.load_from_osm(
     }
 )
 
+X = otm.get_link_table()
+X.sort_values(by='travel_time', ascending=True, inplace=True)
 
-otm.save_to_xml('filename.xml')
+print(X)
+otm.save_to_xml('anchorage.xml')
 
 print('DONE')
 
