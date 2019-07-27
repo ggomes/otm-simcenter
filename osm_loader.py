@@ -23,7 +23,9 @@ default_lanes_each_direction = {
     'tertiary_link':1,
     'motorway':1,
     'primary_link':1,
-    'road':1
+    'road':1,
+    'disused':1,
+    'planned':1
 }
 
 # OSM QUERY ---------------------------------

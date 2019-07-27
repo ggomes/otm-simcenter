@@ -33,6 +33,27 @@ class OTM:
 
         return pd.DataFrame(data={'id':link_ids,'length':link_lengths,'speed_kph':speed_kph,'travel_time':travel_time})
 
+    def join_links_shorter_than(self,min_length_meters):
+        pass
+
+    def merge_nodes(self,merge_nodes):
+
+        # checks ...............
+        for merge_node in merge_nodes:
+
+            # check: merge_nodes in nodes
+            if merge_node not in self.scenario['nodes']:
+                print("ERROR: Bad node id " + merge_node)
+                continue
+
+            # check: merge_node joined by single link to another merge node
+            node = self.scenario['nodes'][merge_node]
+
+            links = node['in_links'].union(node['out_links'])
+
+            print(links)
+
+
 
     def save_to_xml(self, outfile):
 
