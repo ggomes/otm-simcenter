@@ -1,0 +1,4533 @@
+{
+  "Bridge": [
+    {
+      "Site": {
+        "StructureNumber": "1248",
+        "Location": {
+          "Latitude": 61.208,
+          "Longitude": -149.883
+        },
+        "YearBuilt": 1985.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 12006.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 18.7,
+        "BridgeLength": 37.8,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.756
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.582,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1628",
+        "Location": {
+          "Latitude": 61.2,
+          "Longitude": -149.883
+        },
+        "YearBuilt": 1985.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 270.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 13.9,
+        "BridgeLength": 43.9,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.749
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.304,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "2242",
+        "Location": {
+          "Latitude": 61.178,
+          "Longitude": -149.796
+        },
+        "YearBuilt": 2010.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 19294.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 28.4,
+        "BridgeLength": 26.8,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.357
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.146,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "2253",
+        "Location": {
+          "Latitude": 61.152,
+          "Longitude": -149.856
+        },
+        "YearBuilt": 2017.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 43441.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 42.8,
+        "BridgeLength": 40.5,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.349
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.386,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1278",
+        "Location": {
+          "Latitude": 61.173,
+          "Longitude": -149.98
+        },
+        "YearBuilt": 1995.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 4082.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 5,
+        "NumberSpans": 12.0,
+        "SpanWidth": 16.5,
+        "BridgeLength": 244.4,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB2"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.472
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.145,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "2063",
+        "Location": {
+          "Latitude": 61.176,
+          "Longitude": -149.982
+        },
+        "YearBuilt": 2000.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 4082.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 2,
+        "NumberSpans": 21.0,
+        "SpanWidth": 19.9,
+        "BridgeLength": 225.9,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB2"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.474
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.068,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "4066",
+        "Location": {
+          "Latitude": 61.174,
+          "Longitude": -149.981
+        },
+        "YearBuilt": 2000.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 4082.0,
+        "Skew": 53.0,
+        "StructureKind": 1,
+        "StructureType": 19,
+        "NumberSpans": 1.0,
+        "SpanWidth": 48.8,
+        "BridgeLength": 15.3,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.473
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.364,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1973",
+        "Location": {
+          "Latitude": 61.176,
+          "Longitude": -149.915
+        },
+        "YearBuilt": 1999.0,
+        "DetourLength": 8.0,
+        "AverageDailyTraffic": 44829.0,
+        "Skew": 27.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 39.4,
+        "BridgeLength": 44.5,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.472
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.252,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "AFAKFXSB85313",
+        "Location": {
+          "Latitude": 61.239,
+          "Longitude": -149.778
+        },
+        "YearBuilt": 2002.0,
+        "DetourLength": 6.0,
+        "AverageDailyTraffic": 10000.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 5,
+        "NumberSpans": 1.0,
+        "SpanWidth": 23.2,
+        "BridgeLength": 23.6,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.473
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.722,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0455",
+        "Location": {
+          "Latitude": 61.223,
+          "Longitude": -149.885
+        },
+        "YearBuilt": 1975.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 13711.0,
+        "Skew": 99.0,
+        "StructureKind": 4,
+        "StructureType": 2,
+        "NumberSpans": 19.0,
+        "SpanWidth": 21.3,
+        "BridgeLength": 809.2,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB1"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.502
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.432,
+            "DamageState": "Minor Damage",
+            "Downtime": 1.0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1328",
+        "Location": {
+          "Latitude": 61.319,
+          "Longitude": -149.576
+        },
+        "YearBuilt": 1974.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 9957.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 14.3,
+        "BridgeLength": 65.8,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB17"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.343
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.43,
+            "DamageState": "Minor Damage",
+            "Downtime": 1.0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "4085",
+        "Location": {
+          "Latitude": 61.371,
+          "Longitude": -149.539
+        },
+        "YearBuilt": 1980.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 1935.0,
+        "Skew": 0.0,
+        "StructureKind": 3,
+        "StructureType": 19,
+        "NumberSpans": 2.0,
+        "SpanWidth": 0.0,
+        "BridgeLength": 8.2,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB28"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.336
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.347,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0643",
+        "Location": {
+          "Latitude": 60.973,
+          "Longitude": -149.467
+        },
+        "YearBuilt": 1983.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 7312.0,
+        "Skew": 0.0,
+        "StructureKind": 3,
+        "StructureType": 2,
+        "NumberSpans": 3.0,
+        "SpanWidth": 16.9,
+        "BridgeLength": 62.2,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB12"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.161
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.211,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1950",
+        "Location": {
+          "Latitude": 60.93,
+          "Longitude": -149.342
+        },
+        "YearBuilt": 1998.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 7637.0,
+        "Skew": 52.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 13.4,
+        "BridgeLength": 33.1,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.145
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.14,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1525",
+        "Location": {
+          "Latitude": 61.225,
+          "Longitude": -149.778
+        },
+        "YearBuilt": 1986.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 22420.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 29.3,
+        "BridgeLength": 63.1,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB17"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.36
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.335,
+            "DamageState": "Minor Damage",
+            "Downtime": 0.0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "2209",
+        "Location": {
+          "Latitude": 61.221,
+          "Longitude": -149.808
+        },
+        "YearBuilt": 2008.0,
+        "DetourLength": 5.0,
+        "AverageDailyTraffic": 12019.0,
+        "Skew": 27.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 25.6,
+        "BridgeLength": 71.9,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB19"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.47
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.466,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "2210",
+        "Location": {
+          "Latitude": 61.221,
+          "Longitude": -149.808
+        },
+        "YearBuilt": 2008.0,
+        "DetourLength": 5.0,
+        "AverageDailyTraffic": 21057.0,
+        "Skew": 0.0,
+        "StructureKind": 1,
+        "StructureType": 19,
+        "NumberSpans": 1.0,
+        "SpanWidth": 29.6,
+        "BridgeLength": 6.1,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.473
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.694,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "2081",
+        "Location": {
+          "Latitude": 61.123,
+          "Longitude": -149.886
+        },
+        "YearBuilt": 2006.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 28834.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 11.9,
+        "BridgeLength": 68.0,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB19"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.328
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.251,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "2082",
+        "Location": {
+          "Latitude": 61.124,
+          "Longitude": -149.886
+        },
+        "YearBuilt": 2006.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 28834.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 11.9,
+        "BridgeLength": 68.0,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB19"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.331
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.263,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1027",
+        "Location": {
+          "Latitude": 60.968,
+          "Longitude": -149.135
+        },
+        "YearBuilt": 2008.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 487.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 9.4,
+        "BridgeLength": 24.4,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.133
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.105,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1157",
+        "Location": {
+          "Latitude": 61.176,
+          "Longitude": -149.858
+        },
+        "YearBuilt": 2013.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 1656.0,
+        "Skew": 25.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 7.9,
+        "BridgeLength": 54.9,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB19"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.456
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.535,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1694",
+        "Location": {
+          "Latitude": 61.142,
+          "Longitude": -149.908
+        },
+        "YearBuilt": 1985.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 37604.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 11.3,
+        "BridgeLength": 42.7,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.441
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.167,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1443",
+        "Location": {
+          "Latitude": 61.142,
+          "Longitude": -149.908
+        },
+        "YearBuilt": 1985.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 37604.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 11.3,
+        "BridgeLength": 42.7,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.438
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.198,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1350",
+        "Location": {
+          "Latitude": 61.175,
+          "Longitude": -149.859
+        },
+        "YearBuilt": 2012.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 921.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 12.9,
+        "BridgeLength": 54.9,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB19"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.456
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.149,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0970",
+        "Location": {
+          "Latitude": 61.146,
+          "Longitude": -149.892
+        },
+        "YearBuilt": 1979.0,
+        "DetourLength": 3.0,
+        "AverageDailyTraffic": 7286.0,
+        "Skew": 20.0,
+        "StructureKind": 5,
+        "StructureType": 1,
+        "NumberSpans": 2.0,
+        "SpanWidth": 16.2,
+        "BridgeLength": 24.1,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB17"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.338
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.332,
+            "DamageState": "Minor Damage",
+            "Downtime": 1.0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0971",
+        "Location": {
+          "Latitude": 61.148,
+          "Longitude": -149.887
+        },
+        "YearBuilt": 2003.0,
+        "DetourLength": 3.0,
+        "AverageDailyTraffic": 15678.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 27.5,
+        "BridgeLength": 38.3,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.337
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.092,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1509",
+        "Location": {
+          "Latitude": 61.176,
+          "Longitude": -149.852
+        },
+        "YearBuilt": 1978.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 100.0,
+        "Skew": 5.0,
+        "StructureKind": 1,
+        "StructureType": 5,
+        "NumberSpans": 1.0,
+        "SpanWidth": 13.3,
+        "BridgeLength": 13.4,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.458
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.438,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1508",
+        "Location": {
+          "Latitude": 61.177,
+          "Longitude": -149.845
+        },
+        "YearBuilt": 1978.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 100.0,
+        "Skew": 30.0,
+        "StructureKind": 1,
+        "StructureType": 5,
+        "NumberSpans": 1.0,
+        "SpanWidth": 13.5,
+        "BridgeLength": 17.2,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.46
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.323,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0391",
+        "Location": {
+          "Latitude": 61.138,
+          "Longitude": -149.925
+        },
+        "YearBuilt": 1988.0,
+        "DetourLength": 8.0,
+        "AverageDailyTraffic": 25568.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 37.3,
+        "BridgeLength": 27.4,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.446
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.486,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0972",
+        "Location": {
+          "Latitude": 61.166,
+          "Longitude": -149.874
+        },
+        "YearBuilt": 2012.0,
+        "DetourLength": 3.0,
+        "AverageDailyTraffic": 18015.0,
+        "Skew": 12.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 25.3,
+        "BridgeLength": 38.7,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.455
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.541,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1343",
+        "Location": {
+          "Latitude": 61.174,
+          "Longitude": -149.864
+        },
+        "YearBuilt": 1976.0,
+        "DetourLength": 8.0,
+        "AverageDailyTraffic": 2794.0,
+        "Skew": 15.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 16.9,
+        "BridgeLength": 21.9,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.459
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.248,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0969",
+        "Location": {
+          "Latitude": 61.178,
+          "Longitude": -149.838
+        },
+        "YearBuilt": 1966.0,
+        "DetourLength": 8.0,
+        "AverageDailyTraffic": 20785.0,
+        "Skew": 0.0,
+        "StructureKind": 2,
+        "StructureType": 1,
+        "NumberSpans": 3.0,
+        "SpanWidth": 24.4,
+        "BridgeLength": 19.2,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB10"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.46
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.175,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1444",
+        "Location": {
+          "Latitude": 61.142,
+          "Longitude": -149.907
+        },
+        "YearBuilt": 1981.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 6508.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 11.3,
+        "BridgeLength": 42.7,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.44
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.52,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0645",
+        "Location": {
+          "Latitude": 61.172,
+          "Longitude": -149.868
+        },
+        "YearBuilt": 1982.0,
+        "DetourLength": 3.0,
+        "AverageDailyTraffic": 19583.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 1,
+        "NumberSpans": 2.0,
+        "SpanWidth": 22.3,
+        "BridgeLength": 24.7,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB17"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.454
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.488,
+            "DamageState": "Moderage Damage",
+            "Downtime": 24.0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1445",
+        "Location": {
+          "Latitude": 61.142,
+          "Longitude": -149.908
+        },
+        "YearBuilt": 1981.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 8423.0,
+        "Skew": 11.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 11.3,
+        "BridgeLength": 43.6,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.438
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.161,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1160",
+        "Location": {
+          "Latitude": 61.176,
+          "Longitude": -149.859
+        },
+        "YearBuilt": 2013.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 264366.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 21.5,
+        "BridgeLength": 44.5,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.457
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.166,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1861",
+        "Location": {
+          "Latitude": 61.175,
+          "Longitude": -149.859
+        },
+        "YearBuilt": 2013.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 26366.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 2,
+        "NumberSpans": 1.0,
+        "SpanWidth": 21.5,
+        "BridgeLength": 44.5,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.457
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.409,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "4112",
+        "Location": {
+          "Latitude": 61.208,
+          "Longitude": -149.734
+        },
+        "YearBuilt": 2016.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 29241.0,
+        "Skew": 0.0,
+        "StructureKind": 3,
+        "StructureType": 19,
+        "NumberSpans": 1.0,
+        "SpanWidth": 0.0,
+        "BridgeLength": 6.1,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.356
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.125,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1273",
+        "Location": {
+          "Latitude": 61.204,
+          "Longitude": -149.887
+        },
+        "YearBuilt": 1973.0,
+        "DetourLength": 3.0,
+        "AverageDailyTraffic": 18396.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 1,
+        "NumberSpans": 2.0,
+        "SpanWidth": 16.9,
+        "BridgeLength": 17.1,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB17"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.764
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.865,
+            "DamageState": "Extensive Damage",
+            "Downtime": 58.0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1629",
+        "Location": {
+          "Latitude": 61.203,
+          "Longitude": -149.883
+        },
+        "YearBuilt": 1985.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 14769.0,
+        "Skew": 20.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 18.7,
+        "BridgeLength": 36.6,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.75
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.545,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "AFAKFSXB95106",
+        "Location": {
+          "Latitude": 61.19,
+          "Longitude": -149.706
+        },
+        "YearBuilt": 2009.0,
+        "DetourLength": 10.0,
+        "AverageDailyTraffic": 100.0,
+        "Skew": 0.0,
+        "StructureKind": 7,
+        "StructureType": 2,
+        "NumberSpans": 1.0,
+        "SpanWidth": 4.4,
+        "BridgeLength": 13.8,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.34
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.389,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "2235",
+        "Location": {
+          "Latitude": 61.207,
+          "Longitude": -149.74
+        },
+        "YearBuilt": 2008.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 1200.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 8.7,
+        "BridgeLength": 22.7,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.357
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.307,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "2236",
+        "Location": {
+          "Latitude": 61.207,
+          "Longitude": -149.74
+        },
+        "YearBuilt": 2008.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 800.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 8.7,
+        "BridgeLength": 22.7,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.366
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.374,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1028",
+        "Location": {
+          "Latitude": 61.021,
+          "Longitude": -149.095
+        },
+        "YearBuilt": 1950.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 487.0,
+        "Skew": 0.0,
+        "StructureKind": 3,
+        "StructureType": 2,
+        "NumberSpans": 1.0,
+        "SpanWidth": 5.2,
+        "BridgeLength": 24.6,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.131
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.14,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1391",
+        "Location": {
+          "Latitude": 61.094,
+          "Longitude": -149.836
+        },
+        "YearBuilt": 1990.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 6384.0,
+        "Skew": 23.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 27.1,
+        "BridgeLength": 82.1,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB19"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.31
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.317,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1433",
+        "Location": {
+          "Latitude": 61.14,
+          "Longitude": -149.908
+        },
+        "YearBuilt": 1985.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 37604.0,
+        "Skew": 33.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 40.6,
+        "BridgeLength": 70.1,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB17"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.341
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.371,
+            "DamageState": "Minor Damage",
+            "Downtime": 1.0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1325",
+        "Location": {
+          "Latitude": 61.145,
+          "Longitude": -149.856
+        },
+        "YearBuilt": 1976.0,
+        "DetourLength": 3.0,
+        "AverageDailyTraffic": 43376.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 32.3,
+        "BridgeLength": 33.5,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.341
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.335,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1324",
+        "Location": {
+          "Latitude": 61.166,
+          "Longitude": -149.856
+        },
+        "YearBuilt": 1974.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 27497.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 32.3,
+        "BridgeLength": 33.5,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.352
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.342,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1845",
+        "Location": {
+          "Latitude": 61.303,
+          "Longitude": -149.539
+        },
+        "YearBuilt": 1992.0,
+        "DetourLength": 16.0,
+        "AverageDailyTraffic": 12673.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 29.3,
+        "BridgeLength": 34.3,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.329
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.556,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "AFAKFSXB95109",
+        "Location": {
+          "Latitude": 61.317,
+          "Longitude": -149.603
+        },
+        "YearBuilt": 1970.0,
+        "DetourLength": 10.0,
+        "AverageDailyTraffic": 100.0,
+        "Skew": 0.0,
+        "StructureKind": 3,
+        "StructureType": 10,
+        "NumberSpans": 1.0,
+        "SpanWidth": 3.8,
+        "BridgeLength": 42.7,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.35
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.543,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1739",
+        "Location": {
+          "Latitude": 61.298,
+          "Longitude": -149.54
+        },
+        "YearBuilt": 1992.0,
+        "DetourLength": 16.0,
+        "AverageDailyTraffic": 12715.0,
+        "Skew": 0.0,
+        "StructureKind": 4,
+        "StructureType": 2,
+        "NumberSpans": 3.0,
+        "SpanWidth": 28.3,
+        "BridgeLength": 186.3,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB2"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.224
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.133,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "AFAKFSXB95108",
+        "Location": {
+          "Latitude": 61.311,
+          "Longitude": -149.688
+        },
+        "YearBuilt": 1998.0,
+        "DetourLength": 10.0,
+        "AverageDailyTraffic": 1000.0,
+        "Skew": 45.0,
+        "StructureKind": 6,
+        "StructureType": 4,
+        "NumberSpans": 3.0,
+        "SpanWidth": 8.9,
+        "BridgeLength": 120.0,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB23"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.378
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.455,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0535",
+        "Location": {
+          "Latitude": 61.31,
+          "Longitude": -149.577
+        },
+        "YearBuilt": 1981.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 200.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 3.0,
+        "SpanWidth": 14.5,
+        "BridgeLength": 74.1,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB17"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.34
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.336,
+            "DamageState": "Minor Damage",
+            "Downtime": 1.0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "2303",
+        "Location": {
+          "Latitude": 61.311,
+          "Longitude": -149.579
+        },
+        "YearBuilt": 2015.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 49187.0,
+        "Skew": 30.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 4.0,
+        "SpanWidth": 18.3,
+        "BridgeLength": 177.7,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB2"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.345
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.437,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1341",
+        "Location": {
+          "Latitude": 61.31,
+          "Longitude": -149.581
+        },
+        "YearBuilt": 1974.0,
+        "DetourLength": 16.0,
+        "AverageDailyTraffic": 51194.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 3.0,
+        "SpanWidth": 11.3,
+        "BridgeLength": 126.9,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB17"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.342
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.349,
+            "DamageState": "Minor Damage",
+            "Downtime": 0.0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1369",
+        "Location": {
+          "Latitude": 61.435,
+          "Longitude": -149.402
+        },
+        "YearBuilt": 1977.0,
+        "DetourLength": 16.0,
+        "AverageDailyTraffic": 33711.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 11.8,
+        "BridgeLength": 32.3,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.33
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.429,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1868",
+        "Location": {
+          "Latitude": 61.435,
+          "Longitude": -149.402
+        },
+        "YearBuilt": 1977.0,
+        "DetourLength": 16.0,
+        "AverageDailyTraffic": 33711.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 11.8,
+        "BridgeLength": 32.3,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.309
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.307,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1374",
+        "Location": {
+          "Latitude": 61.457,
+          "Longitude": -149.362
+        },
+        "YearBuilt": 1978.0,
+        "DetourLength": 6.0,
+        "AverageDailyTraffic": 547.0,
+        "Skew": 32.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 13.0,
+        "BridgeLength": 64.9,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB17"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.278
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.3,
+            "DamageState": "Minor Damage",
+            "Downtime": 0.0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0537",
+        "Location": {
+          "Latitude": 61.45,
+          "Longitude": -149.37
+        },
+        "YearBuilt": 2016.0,
+        "DetourLength": 16.0,
+        "AverageDailyTraffic": 745.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 13.8,
+        "BridgeLength": 77.4,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB19"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.275
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.509,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1230",
+        "Location": {
+          "Latitude": 61.451,
+          "Longitude": -149.375
+        },
+        "YearBuilt": 1977.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 33711.0,
+        "Skew": 10.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 12.1,
+        "BridgeLength": 32.3,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.281
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.564,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1864",
+        "Location": {
+          "Latitude": 61.451,
+          "Longitude": -149.375
+        },
+        "YearBuilt": 1977.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 33711.0,
+        "Skew": 10.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 12.1,
+        "BridgeLength": 32.3,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.262
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.09,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "2274",
+        "Location": {
+          "Latitude": 61.349,
+          "Longitude": -149.552
+        },
+        "YearBuilt": 2007.0,
+        "DetourLength": 3.0,
+        "AverageDailyTraffic": 500.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 1,
+        "NumberSpans": 1.0,
+        "SpanWidth": 9.8,
+        "BridgeLength": 8.7,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.345
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.242,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1326",
+        "Location": {
+          "Latitude": 61.253,
+          "Longitude": -149.66
+        },
+        "YearBuilt": 1974.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 8376.0,
+        "Skew": 15.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 13.0,
+        "BridgeLength": 72.5,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB17"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.719
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.793,
+            "DamageState": "Extensive Damage",
+            "Downtime": 8.0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1001",
+        "Location": {
+          "Latitude": 60.943,
+          "Longitude": -149.171
+        },
+        "YearBuilt": 1967.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 2815.0,
+        "Skew": 8.0,
+        "StructureKind": 3,
+        "StructureType": 2,
+        "NumberSpans": 3.0,
+        "SpanWidth": 12.1,
+        "BridgeLength": 36.9,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB12"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.195
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.035,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0639",
+        "Location": {
+          "Latitude": 60.939,
+          "Longitude": -149.167
+        },
+        "YearBuilt": 1966.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 5205.0,
+        "Skew": 0.0,
+        "StructureKind": 3,
+        "StructureType": 2,
+        "NumberSpans": 2.0,
+        "SpanWidth": 10.3,
+        "BridgeLength": 49.7,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB12"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.187
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.052,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0999",
+        "Location": {
+          "Latitude": 60.962,
+          "Longitude": -149.131
+        },
+        "YearBuilt": 1967.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 2849.0,
+        "Skew": 0.0,
+        "StructureKind": 3,
+        "StructureType": 2,
+        "NumberSpans": 4.0,
+        "SpanWidth": 12.1,
+        "BridgeLength": 67.7,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB12"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.248
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.317,
+            "DamageState": "Minor Damage",
+            "Downtime": 1.0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1266",
+        "Location": {
+          "Latitude": 61.462,
+          "Longitude": -149.349
+        },
+        "YearBuilt": 1977.0,
+        "DetourLength": 8.0,
+        "AverageDailyTraffic": 33015.0,
+        "Skew": 46.0,
+        "StructureKind": 3,
+        "StructureType": 2,
+        "NumberSpans": 3.0,
+        "SpanWidth": 11.3,
+        "BridgeLength": 51.5,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB12"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.248
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.211,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1865",
+        "Location": {
+          "Latitude": 61.462,
+          "Longitude": -149.349
+        },
+        "YearBuilt": 1977.0,
+        "DetourLength": 8.0,
+        "AverageDailyTraffic": 33015.0,
+        "Skew": 46.0,
+        "StructureKind": 3,
+        "StructureType": 2,
+        "NumberSpans": 3.0,
+        "SpanWidth": 11.3,
+        "BridgeLength": 51.5,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB12"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.233
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.006,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0538",
+        "Location": {
+          "Latitude": 61.488,
+          "Longitude": -149.099
+        },
+        "YearBuilt": 1977.0,
+        "DetourLength": 43.0,
+        "AverageDailyTraffic": 2332.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 9.1,
+        "BridgeLength": 25.3,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.155
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.069,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1327",
+        "Location": {
+          "Latitude": 61.296,
+          "Longitude": -149.59
+        },
+        "YearBuilt": 1994.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 8767.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 16.9,
+        "BridgeLength": 63.4,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB19"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.346
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.219,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0976",
+        "Location": {
+          "Latitude": 61.201,
+          "Longitude": -149.913
+        },
+        "YearBuilt": 2001.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 2748.0,
+        "Skew": 20.0,
+        "StructureKind": 3,
+        "StructureType": 2,
+        "NumberSpans": 1.0,
+        "SpanWidth": 17.1,
+        "BridgeLength": 27.2,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.382
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.324,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "4100",
+        "Location": {
+          "Latitude": 61.166,
+          "Longitude": -149.899
+        },
+        "YearBuilt": 2015.0,
+        "DetourLength": 3.0,
+        "AverageDailyTraffic": 10016.0,
+        "Skew": 20.0,
+        "StructureKind": 3,
+        "StructureType": 19,
+        "NumberSpans": 1.0,
+        "SpanWidth": 0.0,
+        "BridgeLength": 16.5,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.71
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.297,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1441",
+        "Location": {
+          "Latitude": 61.109,
+          "Longitude": -149.851
+        },
+        "YearBuilt": 1983.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 26911.0,
+        "Skew": 28.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 11.3,
+        "BridgeLength": 39.0,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.413
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.33,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1442",
+        "Location": {
+          "Latitude": 61.109,
+          "Longitude": -149.851
+        },
+        "YearBuilt": 1982.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 26911.0,
+        "Skew": 28.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 11.3,
+        "BridgeLength": 39.0,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.43
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.728,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0644",
+        "Location": {
+          "Latitude": 60.986,
+          "Longitude": -149.501
+        },
+        "YearBuilt": 1983.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 7312.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 3.0,
+        "SpanWidth": 17.1,
+        "BridgeLength": 50.6,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB17"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.242
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.334,
+            "DamageState": "Minor Damage",
+            "Downtime": 1.0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0620",
+        "Location": {
+          "Latitude": 60.847,
+          "Longitude": -149.059
+        },
+        "YearBuilt": 1985.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 4265.0,
+        "Skew": 30.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 12.6,
+        "BridgeLength": 52.1,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB17"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.16
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.21,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0700",
+        "Location": {
+          "Latitude": 61.173,
+          "Longitude": -149.911
+        },
+        "YearBuilt": 1973.0,
+        "DetourLength": 8.0,
+        "AverageDailyTraffic": 18441.0,
+        "Skew": 10.0,
+        "StructureKind": 5,
+        "StructureType": 5,
+        "NumberSpans": 3.0,
+        "SpanWidth": 28.4,
+        "BridgeLength": 45.7,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB17"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.467
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.41,
+            "DamageState": "Moderage Damage",
+            "Downtime": 24.0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0539",
+        "Location": {
+          "Latitude": 61.504,
+          "Longitude": -149.033
+        },
+        "YearBuilt": 1975.0,
+        "DetourLength": 43.0,
+        "AverageDailyTraffic": 2603.0,
+        "Skew": 0.0,
+        "StructureKind": 4,
+        "StructureType": 5,
+        "NumberSpans": 3.0,
+        "SpanWidth": 8.8,
+        "BridgeLength": 154.1,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB1"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.142
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.168,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1951",
+        "Location": {
+          "Latitude": 61.608,
+          "Longitude": -149.073
+        },
+        "YearBuilt": 1997.0,
+        "DetourLength": 53.0,
+        "AverageDailyTraffic": 10730.0,
+        "Skew": 0.0,
+        "StructureKind": 4,
+        "StructureType": 2,
+        "NumberSpans": 2.0,
+        "SpanWidth": 13.1,
+        "BridgeLength": 139.0,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB16"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.209
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.131,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1526",
+        "Location": {
+          "Latitude": 61.224,
+          "Longitude": -149.792
+        },
+        "YearBuilt": 1986.0,
+        "DetourLength": 3.0,
+        "AverageDailyTraffic": 3804.0,
+        "Skew": 8.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 14.1,
+        "BridgeLength": 81.1,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB17"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.467
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.505,
+            "DamageState": "Moderage Damage",
+            "Downtime": 23.0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1432",
+        "Location": {
+          "Latitude": 61.159,
+          "Longitude": -149.912
+        },
+        "YearBuilt": 1991.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 50178.0,
+        "Skew": 18.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 50.6,
+        "BridgeLength": 45.3,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.45
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.187,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1269",
+        "Location": {
+          "Latitude": 61.172,
+          "Longitude": -149.917
+        },
+        "YearBuilt": 1999.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 32515.0,
+        "Skew": 12.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 34.3,
+        "BridgeLength": 88.4,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB19"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.466
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.13,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0699",
+        "Location": {
+          "Latitude": 61.177,
+          "Longitude": -149.914
+        },
+        "YearBuilt": 1993.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 44829.0,
+        "Skew": 54.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 39.4,
+        "BridgeLength": 38.8,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.472
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.425,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1368",
+        "Location": {
+          "Latitude": 61.421,
+          "Longitude": -149.425
+        },
+        "YearBuilt": 1977.0,
+        "DetourLength": 8.0,
+        "AverageDailyTraffic": 839.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 13.0,
+        "BridgeLength": 56.1,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB17"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.294
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.258,
+            "DamageState": "Minor Damage",
+            "Downtime": 1.0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "2308",
+        "Location": {
+          "Latitude": 61.227,
+          "Longitude": -149.734
+        },
+        "YearBuilt": 2017.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 24683.0,
+        "Skew": 24.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 15.8,
+        "BridgeLength": 67.7,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB19"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.366
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.439,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1322",
+        "Location": {
+          "Latitude": 61.227,
+          "Longitude": -149.733
+        },
+        "YearBuilt": 2017.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 24683.0,
+        "Skew": 24.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 19.3,
+        "BridgeLength": 67.7,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB19"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.364
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.44,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "100410000003414",
+        "Location": {
+          "Latitude": 61.033,
+          "Longitude": -149.117
+        },
+        "YearBuilt": 1980.0,
+        "DetourLength": 999.0,
+        "AverageDailyTraffic": 50.0,
+        "Skew": 0.0,
+        "StructureKind": 7,
+        "StructureType": 2,
+        "NumberSpans": 1.0,
+        "SpanWidth": 5.2,
+        "BridgeLength": 13.1,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.132
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.087,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1450",
+        "Location": {
+          "Latitude": 61.402,
+          "Longitude": -149.468
+        },
+        "YearBuilt": 1983.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 5075.0,
+        "Skew": 18.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 19.7,
+        "BridgeLength": 77.3,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB17"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.311
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.298,
+            "DamageState": "Minor Damage",
+            "Downtime": 1.0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1600",
+        "Location": {
+          "Latitude": 61.342,
+          "Longitude": -149.566
+        },
+        "YearBuilt": 1991.0,
+        "DetourLength": 8.0,
+        "AverageDailyTraffic": 8700.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 27.9,
+        "BridgeLength": 83.5,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB19"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.343
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.46,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "2152",
+        "Location": {
+          "Latitude": 61.176,
+          "Longitude": -149.808
+        },
+        "YearBuilt": 2007.0,
+        "DetourLength": 13.0,
+        "AverageDailyTraffic": 25248.0,
+        "Skew": 25.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 3.0,
+        "SpanWidth": 25.4,
+        "BridgeLength": 109.1,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB19"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.457
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.237,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1883",
+        "Location": {
+          "Latitude": 61.474,
+          "Longitude": -149.263
+        },
+        "YearBuilt": 1994.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 966.0,
+        "Skew": 30.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 12.9,
+        "BridgeLength": 62.5,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB19"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.171
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.043,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1884",
+        "Location": {
+          "Latitude": 61.472,
+          "Longitude": -149.256
+        },
+        "YearBuilt": 1994.0,
+        "DetourLength": 53.0,
+        "AverageDailyTraffic": 2332.0,
+        "Skew": 27.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 13.1,
+        "BridgeLength": 40.3,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.19
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.038,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1380",
+        "Location": {
+          "Latitude": 61.123,
+          "Longitude": -149.857
+        },
+        "YearBuilt": 1978.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 34212.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 30.7,
+        "BridgeLength": 51.8,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB17"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.671
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.617,
+            "DamageState": "Extensive Damage",
+            "Downtime": 105.0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1031",
+        "Location": {
+          "Latitude": 61.421,
+          "Longitude": -149.493
+        },
+        "YearBuilt": 1991.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 100.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 8.2,
+        "BridgeLength": 24.4,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.32
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.527,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0536",
+        "Location": {
+          "Latitude": 61.404,
+          "Longitude": -149.457
+        },
+        "YearBuilt": 2011.0,
+        "DetourLength": 16.0,
+        "AverageDailyTraffic": 2500.0,
+        "Skew": 25.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 10.7,
+        "BridgeLength": 41.5,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.303
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.397,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1155",
+        "Location": {
+          "Latitude": 61.405,
+          "Longitude": -149.459
+        },
+        "YearBuilt": 1969.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 35919.0,
+        "Skew": 15.0,
+        "StructureKind": 4,
+        "StructureType": 2,
+        "NumberSpans": 3.0,
+        "SpanWidth": 13.0,
+        "BridgeLength": 51.2,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB15"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.285
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.084,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1344",
+        "Location": {
+          "Latitude": 61.405,
+          "Longitude": -149.46
+        },
+        "YearBuilt": 1977.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 35919.0,
+        "Skew": 15.0,
+        "StructureKind": 4,
+        "StructureType": 2,
+        "NumberSpans": 3.0,
+        "SpanWidth": 11.3,
+        "BridgeLength": 51.2,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB15"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.287
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.546,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1367",
+        "Location": {
+          "Latitude": 61.409,
+          "Longitude": -149.442
+        },
+        "YearBuilt": 1981.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 35919.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 11.8,
+        "BridgeLength": 37.5,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.293
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.425,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1867",
+        "Location": {
+          "Latitude": 61.41,
+          "Longitude": -149.442
+        },
+        "YearBuilt": 1981.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 35919.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 11.8,
+        "BridgeLength": 37.5,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.281
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.117,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0636",
+        "Location": {
+          "Latitude": 60.885,
+          "Longitude": -149.047
+        },
+        "YearBuilt": 1966.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 5205.0,
+        "Skew": 0.0,
+        "StructureKind": 3,
+        "StructureType": 2,
+        "NumberSpans": 2.0,
+        "SpanWidth": 10.3,
+        "BridgeLength": 37.5,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB12"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.116
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.052,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1962",
+        "Location": {
+          "Latitude": 60.787,
+          "Longitude": -148.824
+        },
+        "YearBuilt": 1999.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 842.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 13.0,
+        "BridgeLength": 40.0,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.131
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.087,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0629",
+        "Location": {
+          "Latitude": 60.817,
+          "Longitude": -148.987
+        },
+        "YearBuilt": 1966.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 4265.0,
+        "Skew": 0.0,
+        "StructureKind": 3,
+        "StructureType": 2,
+        "NumberSpans": 6.0,
+        "SpanWidth": 10.4,
+        "BridgeLength": 148.3,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB12"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.296
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.282,
+            "DamageState": "Minor Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0627",
+        "Location": {
+          "Latitude": 60.82,
+          "Longitude": -149.001
+        },
+        "YearBuilt": 1967.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 4265.0,
+        "Skew": 0.0,
+        "StructureKind": 3,
+        "StructureType": 2,
+        "NumberSpans": 4.0,
+        "SpanWidth": 10.4,
+        "BridgeLength": 99.1,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB12"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.295
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.279,
+            "DamageState": "Minor Damage",
+            "Downtime": 1.0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0403",
+        "Location": {
+          "Latitude": 60.793,
+          "Longitude": -148.904
+        },
+        "YearBuilt": 1965.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 1105.0,
+        "Skew": 0.0,
+        "StructureKind": 1,
+        "StructureType": 1,
+        "NumberSpans": 3.0,
+        "SpanWidth": 10.3,
+        "BridgeLength": 25.3,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB5"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.098
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.039,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0404",
+        "Location": {
+          "Latitude": 60.79,
+          "Longitude": -148.895
+        },
+        "YearBuilt": 1965.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 1105.0,
+        "Skew": 45.0,
+        "StructureKind": 1,
+        "StructureType": 1,
+        "NumberSpans": 4.0,
+        "SpanWidth": 10.3,
+        "BridgeLength": 34.7,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB5"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.096
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.007,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0405",
+        "Location": {
+          "Latitude": 60.788,
+          "Longitude": -148.879
+        },
+        "YearBuilt": 1966.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 1105.0,
+        "Skew": 0.0,
+        "StructureKind": 1,
+        "StructureType": 1,
+        "NumberSpans": 3.0,
+        "SpanWidth": 10.2,
+        "BridgeLength": 25.3,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB5"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.134
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.034,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1961",
+        "Location": {
+          "Latitude": 60.785,
+          "Longitude": -148.842
+        },
+        "YearBuilt": 1999.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 842.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 3.0,
+        "SpanWidth": 13.0,
+        "BridgeLength": 116.5,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB19"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.085
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.383,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0630",
+        "Location": {
+          "Latitude": 60.821,
+          "Longitude": -148.976
+        },
+        "YearBuilt": 1966.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 6768.0,
+        "Skew": 0.0,
+        "StructureKind": 3,
+        "StructureType": 2,
+        "NumberSpans": 3.0,
+        "SpanWidth": 10.3,
+        "BridgeLength": 61.9,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB12"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.286
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.326,
+            "DamageState": "Minor Damage",
+            "Downtime": 1.0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0631",
+        "Location": {
+          "Latitude": 60.827,
+          "Longitude": -148.978
+        },
+        "YearBuilt": 1967.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 6768.0,
+        "Skew": 0.0,
+        "StructureKind": 3,
+        "StructureType": 2,
+        "NumberSpans": 3.0,
+        "SpanWidth": 10.4,
+        "BridgeLength": 74.1,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB12"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.278
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.257,
+            "DamageState": "Minor Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1392",
+        "Location": {
+          "Latitude": 61.087,
+          "Longitude": -149.834
+        },
+        "YearBuilt": 1990.0,
+        "DetourLength": 3.0,
+        "AverageDailyTraffic": 8978.0,
+        "Skew": 59.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 3.0,
+        "SpanWidth": 29.7,
+        "BridgeLength": 126.3,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB19"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.323
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.023,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "4096",
+        "Location": {
+          "Latitude": 61.084,
+          "Longitude": -149.826
+        },
+        "YearBuilt": 1978.0,
+        "DetourLength": 3.0,
+        "AverageDailyTraffic": 8978.0,
+        "Skew": 0.0,
+        "StructureKind": 3,
+        "StructureType": 19,
+        "NumberSpans": 2.0,
+        "SpanWidth": 0.0,
+        "BridgeLength": 7.2,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB28"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.311
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.057,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1940",
+        "Location": {
+          "Latitude": 61.224,
+          "Longitude": -149.888
+        },
+        "YearBuilt": 1992.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 3992.0,
+        "Skew": 0.0,
+        "StructureKind": 3,
+        "StructureType": 5,
+        "NumberSpans": 1.0,
+        "SpanWidth": 10.1,
+        "BridgeLength": 40.8,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.502
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.392,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "AFAKFXSB85200",
+        "Location": {
+          "Latitude": 61.237,
+          "Longitude": -149.778
+        },
+        "YearBuilt": 1968.0,
+        "DetourLength": 3.0,
+        "AverageDailyTraffic": 10000.0,
+        "Skew": 0.0,
+        "StructureKind": 3,
+        "StructureType": 19,
+        "NumberSpans": 2.0,
+        "SpanWidth": 16.1,
+        "BridgeLength": 16.3,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB28"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.473
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.563,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1320",
+        "Location": {
+          "Latitude": 61.228,
+          "Longitude": -149.831
+        },
+        "YearBuilt": 1980.0,
+        "DetourLength": 8.0,
+        "AverageDailyTraffic": 3235.0,
+        "Skew": 20.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 3.0,
+        "SpanWidth": 12.5,
+        "BridgeLength": 66.1,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB17"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.48
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.412,
+            "DamageState": "Moderage Damage",
+            "Downtime": 25.0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0534",
+        "Location": {
+          "Latitude": 61.238,
+          "Longitude": -149.694
+        },
+        "YearBuilt": 1988.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 65172.0,
+        "Skew": 6.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 48.2,
+        "BridgeLength": 31.4,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.459
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.288,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "AFAKFSXB95101",
+        "Location": {
+          "Latitude": 61.241,
+          "Longitude": -149.707
+        },
+        "YearBuilt": 2005.0,
+        "DetourLength": 10.0,
+        "AverageDailyTraffic": 500.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 9.3,
+        "BridgeLength": 45.7,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.468
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.813,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "AFAKFSXB95107",
+        "Location": {
+          "Latitude": 61.225,
+          "Longitude": -149.65
+        },
+        "YearBuilt": 2005.0,
+        "DetourLength": 10.0,
+        "AverageDailyTraffic": 100.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 8.9,
+        "BridgeLength": 23.6,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.348
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.287,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "2150",
+        "Location": {
+          "Latitude": 61.224,
+          "Longitude": -149.893
+        },
+        "YearBuilt": 2005.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 100.0,
+        "Skew": 26.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 13.3,
+        "BridgeLength": 57.9,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB19"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.392
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.231,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "4022",
+        "Location": {
+          "Latitude": 61.223,
+          "Longitude": -149.859
+        },
+        "YearBuilt": 1972.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 3670.0,
+        "Skew": 0.0,
+        "StructureKind": 3,
+        "StructureType": 19,
+        "NumberSpans": 3.0,
+        "SpanWidth": 0.0,
+        "BridgeLength": 15.8,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB28"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.483
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.28,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1378",
+        "Location": {
+          "Latitude": 61.367,
+          "Longitude": -149.535
+        },
+        "YearBuilt": 1980.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 39060.0,
+        "Skew": 8.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 11.8,
+        "BridgeLength": 38.7,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.333
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.348,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1869",
+        "Location": {
+          "Latitude": 61.368,
+          "Longitude": -149.535
+        },
+        "YearBuilt": 1980.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 39060.0,
+        "Skew": 8.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 11.8,
+        "BridgeLength": 38.7,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.333
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.321,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "2151",
+        "Location": {
+          "Latitude": 61.169,
+          "Longitude": -149.809
+        },
+        "YearBuilt": 2007.0,
+        "DetourLength": 13.0,
+        "AverageDailyTraffic": 25248.0,
+        "Skew": 20.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 5.0,
+        "SpanWidth": 25.4,
+        "BridgeLength": 172.5,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB2"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.451
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.478,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0640",
+        "Location": {
+          "Latitude": 60.944,
+          "Longitude": -149.188
+        },
+        "YearBuilt": 1995.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 7637.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 16.7,
+        "BridgeLength": 31.4,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.131
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.161,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1323",
+        "Location": {
+          "Latitude": 61.181,
+          "Longitude": -149.86
+        },
+        "YearBuilt": 1974.0,
+        "DetourLength": 2.0,
+        "AverageDailyTraffic": 38889.0,
+        "Skew": 9.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 2.0,
+        "SpanWidth": 26.2,
+        "BridgeLength": 53.6,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB17"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.462
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.495,
+            "DamageState": "Moderage Damage",
+            "Downtime": 21.0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0634",
+        "Location": {
+          "Latitude": 60.845,
+          "Longitude": -148.988
+        },
+        "YearBuilt": 1967.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 5205.0,
+        "Skew": 15.0,
+        "StructureKind": 3,
+        "StructureType": 2,
+        "NumberSpans": 7.0,
+        "SpanWidth": 10.4,
+        "BridgeLength": 173.0,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB1"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.285
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.061,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "0638",
+        "Location": {
+          "Latitude": 60.933,
+          "Longitude": -149.155
+        },
+        "YearBuilt": 1966.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 5205.0,
+        "Skew": 0.0,
+        "StructureKind": 3,
+        "StructureType": 2,
+        "NumberSpans": 2.0,
+        "SpanWidth": 10.3,
+        "BridgeLength": 37.5,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB12"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.178
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.091,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "2273",
+        "Location": {
+          "Latitude": 61.166,
+          "Longitude": -149.898
+        },
+        "YearBuilt": 2015.0,
+        "DetourLength": 3.0,
+        "AverageDailyTraffic": 10016.0,
+        "Skew": 14.0,
+        "StructureKind": 3,
+        "StructureType": 5,
+        "NumberSpans": 1.0,
+        "SpanWidth": 31.6,
+        "BridgeLength": 61.0,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB4"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.706
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.7,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1695",
+        "Location": {
+          "Latitude": 61.13,
+          "Longitude": -149.907
+        },
+        "YearBuilt": 1985.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 28737.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 11.3,
+        "BridgeLength": 35.4,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.436
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.601,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    },
+    {
+      "Site": {
+        "StructureNumber": "1603",
+        "Location": {
+          "Latitude": 61.13,
+          "Longitude": -149.908
+        },
+        "YearBuilt": 1985.0,
+        "DetourLength": 199.0,
+        "AverageDailyTraffic": 28737.0,
+        "Skew": 0.0,
+        "StructureKind": 5,
+        "StructureType": 4,
+        "NumberSpans": 1.0,
+        "SpanWidth": 11.3,
+        "BridgeLength": 35.4,
+        "FragilityType": {
+          "Source": "HAZUS",
+          "FragilityName": "HWB3"
+        },
+        "Demands": {
+          "IntensityMeasure": {
+            "Type": "SA",
+            "Periods": 1.0,
+            "mean": 0.439
+          },
+          "Realization": {
+            "Percentile": 50.0,
+            "SA": 0.184,
+            "DamageState": "No Damage",
+            "Downtime": 0
+          }
+        }
+      }
+    }
+  ],
+  "EqRupture": {
+    "Type": "PointSource",
+    "Magnitude": 7.5,
+    "Location": {
+      "Latitude": 61.346,
+      "Longitude": -149.955,
+      "Depth": 46.7
+    },
+    "AverageRake": 0.0,
+    "AverageDip": 90.0
+  },
+  "GMPE": {
+    "Type": "Zhao Et Al. (2006) - Intraslab"
+  }
+}
